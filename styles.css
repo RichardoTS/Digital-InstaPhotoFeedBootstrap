@@ -1,0 +1,82 @@
+
+
+/* .dropdown-menu dropdown-menu-end :last-child .dropdown-item {
+    color: green;
+} */
+.text-center a {
+    color: black;
+}
+
+.Post{
+    width: 450px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: white;
+}
+.Header {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.Logo1{
+    display: flex;
+    align-items: center;
+    
+}
+.Logo2{
+    display: block;
+    justify-content: space-between;
+    margin-left: 1px;
+    font-weight: 600px;
+}
+
+/*.Header [class="fa-solid fa-ellipsis-vertical fa-2x"]{
+    color: black;
+    float: right;
+    background-color: white;
+    
+} 
+.Header p {
+    background-color: white;
+    width: auto;
+    height: 20px;
+    padding: 5px;
+} */
+.Imagen img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Iconos [class*="fa-regular"]{
+    background-color: white;
+}
+.Iconos{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.Reacciones{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.Reacciones b {
+    background-color: white;
+}
+.Comentario{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+.Iconos :nth-child(4){
+    float: right;
+}
+.col-md-4 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
